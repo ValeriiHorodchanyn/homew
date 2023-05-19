@@ -144,7 +144,6 @@ const monitor01 = new Monitor({
     resolution: '4096×3072',
     modelMonitor: 'SAMSUNG Odyssey G9'
 })
-
 laptop01.getInfo()
 headPhone01.getInfo()
 monitor01.getInfo()
@@ -153,19 +152,14 @@ headPhone01.getPrice('USD')
 monitor01.getPrice('EUR')
 
 
-
-
-
-
-
-console.log(headPhone01.maximumPower)
-console.log(headPhone01.id)
-const laptop = new Product({
-    id: 010,
-    name: 'Product',
-    price: 2800,
-    description: 'The best product in the world'
-})
-laptop.getPrice('EUR')
-laptop.getInfo()
-console.log(laptop.id)
+// console.log(headPhone01.maximumPower)
+// console.log(headPhone01.id)
+// const laptop = new Product({
+//     id: 010,
+//     name: 'Product',
+//     price: 2800,
+//     description: 'The best product in the world'
+// })
+// laptop.getPrice('EUR')
+// laptop.getInfo()
+// console.log(laptop.id)
